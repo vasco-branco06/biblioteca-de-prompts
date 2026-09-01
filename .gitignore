@@ -1,0 +1,26 @@
+# Segredos e credenciais
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+credenciais*
+segredos*
+*_secret*
+*token*
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporários
+*.tmp
+*.bak
+~$*
