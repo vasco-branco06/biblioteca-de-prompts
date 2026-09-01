@@ -28,3 +28,7 @@ venv/
 # Ruido de ferramentas
 .claude-flow/
 .swarm/
+
+# Ruido de ferramentas
+.claude-flow/
+.swarm/
