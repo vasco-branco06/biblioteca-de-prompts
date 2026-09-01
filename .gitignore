@@ -24,3 +24,7 @@ venv/
 *.tmp
 *.bak
 ~$*
+
+# Ruido de ferramentas
+.claude-flow/
+.swarm/
