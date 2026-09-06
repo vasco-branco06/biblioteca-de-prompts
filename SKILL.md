@@ -67,10 +67,16 @@ Três entradas da coleção descrevem comportamento contínuo e não tarefas. Es
 
 ## Registo
 
-No fim de cada utilização, acrescenta uma linha a `registo/uso.csv`, com o
-formato `data_hora,id_template,superficie,projeto,pedido_resumo,resultado`. A
-data em ISO 8601, a superfície como `claude-code` ou `cowork`, e o resultado como
-`bom`, `mau` ou `nao_avaliado`. Acrescenta sempre, nunca reescrevas o ficheiro.
+No fim de cada utilização, corre o script que acrescenta a linha ao
+`registo/uso.csv`:
+
+    python ferramentas/registar_uso.py SEG-10 --resumo "auditoria ao formulário" --resultado bom
+
+O `--resultado` é `bom`, `mau` ou `nao_avaliado`, e fica em `nao_avaliado` se não
+souberes. A superfície é `claude-code` por omissão, e nas sessões do Cowork
+passa-se `--superficie cowork`. A data e o projeto saem sozinhos. Usa o script em
+vez de escreveres a linha à mão, para as vírgulas e os acentos não estragarem o
+ficheiro.
 
 ## Crescimento
 
