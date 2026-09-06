@@ -9,7 +9,7 @@ gatilhos:
   - revê o que acabaste de fazer
   - será que isso está mesmo bem
   - dá uma vista de olhos crítica a isso
-  - antes de eu dar por bom
+  - antes de eu aprovar isto
   - vê se não deixaste nada mal feito
 nao_usar_quando:
   - o trabalho ainda não terminou

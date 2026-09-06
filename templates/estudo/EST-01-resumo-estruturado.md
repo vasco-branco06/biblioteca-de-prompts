@@ -9,6 +9,7 @@ gatilhos:
   - tenho um pdf de oitenta páginas para estudar
   - preciso de perceber isto até quinta
   - resume-me este documento
+  - tenho um documento enorme para ler
   - não tenho tempo para ler isto tudo
   - o que é que interessa mesmo neste relatório
 nao_usar_quando:

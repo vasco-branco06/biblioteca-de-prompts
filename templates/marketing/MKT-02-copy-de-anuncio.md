@@ -8,6 +8,7 @@ origem: novo
 gatilhos:
   - preciso de um anúncio
   - escreve-me um anúncio para o Instagram
+  - faz-me um texto para promover isto
   - preciso de texto para uma campanha paga
   - não sei o que hei de escrever no anúncio
   - quero testar várias versões do mesmo anúncio

@@ -9,7 +9,7 @@ gatilhos:
   - apaguei um ficheiro sem querer
   - desapareceu um ficheiro
   - onde é que foi parar aquele ficheiro
-  - apaguei a pasta errada
+  - apaguei sem querer a pasta errada
   - preciso de recuperar uma coisa que apaguei
 nao_usar_quando:
   - o ficheiro nunca chegou a ser guardado no histórico do projeto

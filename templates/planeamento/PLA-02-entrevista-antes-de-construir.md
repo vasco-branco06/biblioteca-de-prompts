@@ -8,6 +8,8 @@ origem: ccp-18
 gatilhos:
   - quero começar um projeto novo
   - tenho uma ideia para uma app
+  - vou fazer uma app para
+  - quero construir uma aplicação de raiz
   - quero fazer um site para
   - por onde é que começo
   - ajuda-me a montar isto do zero

@@ -8,6 +8,7 @@ origem: ccp-3
 gatilhos:
   - explica-me lá o que fizeste aí
   - não percebi nada do que disseste
+  - não percebi o que mudaste
   - o que é isso que acabaste de dizer
   - fala como se eu não soubesse programar
   - explica isso por palavras simples

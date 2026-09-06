@@ -9,6 +9,7 @@ gatilhos:
   - quantos utilizadores é que isto aguenta
   - com poucos dados funciona bem
   - e se tiver mil registos
+  - aguenta muitas pessoas ao mesmo tempo
   - isto aguenta o lançamento
   - não sei se isto escala
 nao_usar_quando:

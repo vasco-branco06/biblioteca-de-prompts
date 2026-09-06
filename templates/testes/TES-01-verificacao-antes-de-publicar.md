@@ -8,6 +8,7 @@ origem: ccp-9
 gatilhos:
   - quero publicar amanhã
   - vou pôr isto no ar
+  - vamos lançar esta semana
   - antes de publicar
   - como é que sei que não parti nada
   - vou lançar isto hoje

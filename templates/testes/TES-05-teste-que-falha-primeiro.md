@@ -6,7 +6,7 @@ nivel: situacional
 modo: execucao
 origem: ccp-74
 gatilhos:
-  - este erro já apareceu duas vezes
+  - este erro já tinha aparecido antes
   - corrigimos isto e voltou
   - quero garantir que este problema não volta
   - encontrei um defeito

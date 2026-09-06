@@ -8,6 +8,7 @@ origem: ccp-11
 gatilhos:
   - isto ontem funcionava e hoje não
   - deixou de funcionar e não sei o que mudou
+  - isto funcionava na semana passada
   - o que é que estragou isto
   - estava tudo bem até há pouco
   - alguma coisa que mexemos partiu outra coisa

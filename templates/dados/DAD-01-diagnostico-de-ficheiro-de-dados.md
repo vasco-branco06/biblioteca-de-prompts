@@ -8,6 +8,7 @@ origem: novo
 gatilhos:
   - este excel tem valores esquisitos
   - as contas não batem certo
+  - a folha de cálculo tem números estranhos
   - recebi um ficheiro e não sei se posso confiar nele
   - há linhas repetidas nesta folha
   - antes de analisar isto quero saber se está bom

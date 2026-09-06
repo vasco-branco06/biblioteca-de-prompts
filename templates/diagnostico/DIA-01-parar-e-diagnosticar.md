@@ -6,7 +6,7 @@ nivel: recomendado
 modo: diagnostico
 origem: ccp-10
 gatilhos:
-  - para
+  - para, não mexas em mais nada
   - isto está a piorar
   - não mexas mais
   - estás a fazer coisas que eu não pedi
