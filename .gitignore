@@ -32,3 +32,6 @@ venv/
 # Ruido de ferramentas
 .claude-flow/
 .swarm/
+
+# Repositorio alheio clonado aqui por engano
+forge/
