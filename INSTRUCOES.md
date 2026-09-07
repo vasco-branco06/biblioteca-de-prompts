@@ -2,15 +2,15 @@
 
 Documento de especificação. Quem o lê é o Claude Code (no Antigravity ou no terminal) e constrói a biblioteca a partir daqui. Não é um tutorial nem um manual de utilizador.
 
-Autor do pedido: Vasco Branco.
-Pasta da biblioteca: `C:\Users\Admin\Desktop\prompt maneger`
+Autor do pedido: o dono da biblioteca.
+Pasta da biblioteca: `%USERPROFILE%\Desktop\prompt maneger`
 Data da especificação: 1 de setembro de 2026.
 
 ---
 
 ## 1. Objetivo
 
-Criar uma biblioteca pessoal de templates de prompt que o Claude consulta sozinho. O Vasco descreve a tarefa em linguagem normal e o Claude vai buscar o melhor template, preenche-o com o contexto da conversa e executa-o. Não há copiar nem colar em momento nenhum.
+Criar uma biblioteca pessoal de templates de prompt que o Claude consulta sozinho. O utilizador descreve a tarefa em linguagem normal e o Claude vai buscar o melhor template, preenche-o com o contexto da conversa e executa-o. Não há copiar nem colar em momento nenhum.
 
 Duas superfícies têm de funcionar:
 
@@ -83,7 +83,7 @@ A pasta do Desktop é a biblioteca real. Só existe uma cópia.
 Para o Claude Code a encontrar em todos os projetos, criar uma junção do Windows dentro da pasta de skills:
 
 ```
-mklink /J "%USERPROFILE%\.claude\skills\biblioteca-de-prompts" "C:\Users\Admin\Desktop\prompt maneger"
+mklink /J "%USERPROFILE%\.claude\skills\biblioteca-de-prompts" "%USERPROFILE%\Desktop\prompt maneger"
 ```
 
 Junções não precisam de privilégios de administrador. Se o comando falhar, parar e avisar, sem tentar copiar a pasta para os dois sítios. Duas cópias divergem sempre.
@@ -178,7 +178,7 @@ Critério de classificação: se o texto começa por "a partir de agora", ou des
 ```markdown
 ---
 name: biblioteca-de-prompts
-description: Biblioteca pessoal de templates de prompt do Vasco. Usar sempre que
+description: Biblioteca pessoal de templates de prompt pessoais. Usar sempre que
   o pedido corresponda a um método já catalogado: planear um projeto, diagnosticar
   uma avaria, auditar segurança, melhorar performance ou experiência, escrever
   testes, documentar, escrever copy ou conteúdo, estudar um documento, analisar
@@ -232,7 +232,7 @@ Exemplo de linha: `2026-09-01T14:32:00,SEG-07,claude-code,projeto-exemplo,audito
 
 `data_hora` em ISO 8601. `superficie` é `claude-code` ou `cowork`. `resultado` é `bom`, `mau` ou `nao_avaliado`. Acrescentar sempre uma linha, nunca reescrever o ficheiro. O `ferramentas/registar_uso.py` recebe os campos por argumento e faz o append. Abre no Excel sem tratamento nenhum, o que basta para ver mais tarde o que se usa e o que nunca se tocou.
 
-Crescimento: quando o Vasco escreve um prompt à mão e o resultado é bom, o Claude propõe guardá-lo como template novo, já no formato da secção 5 e com a categoria e os gatilhos sugeridos. Só grava depois de ele dizer que sim, e corre logo o `gerar_indice.py`. Nunca guarda por iniciativa própria.
+Crescimento: quando o utilizador escreve um prompt à mão e o resultado é bom, o Claude propõe guardá-lo como template novo, já no formato da secção 5 e com a categoria e os gatilhos sugeridos. Só grava depois de ele dizer que sim, e corre logo o `gerar_indice.py`. Nunca guarda por iniciativa própria.
 
 ---
 

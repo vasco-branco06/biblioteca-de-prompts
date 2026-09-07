@@ -1,7 +1,7 @@
 ---
 name: biblioteca-de-prompts
 description: >-
-  Biblioteca pessoal de templates de prompt do Vasco. Usar sempre que
+  Biblioteca pessoal de templates de prompt. Usar sempre que
   o pedido corresponda a um método já catalogado: planear um projeto, diagnosticar
   uma avaria, auditar segurança, melhorar performance ou experiência, escrever
   testes, documentar, escrever copy ou conteúdo, estudar um documento, analisar
@@ -83,7 +83,7 @@ ficheiro.
 
 ## Crescimento
 
-Quando o Vasco escrever um prompt à mão e o resultado for bom, propõe guardá-lo
+Quando o utilizador escrever um prompt à mão e o resultado for bom, propõe guardá-lo
 como template novo, já no formato dos existentes e com categoria e gatilhos
 sugeridos. Só grava depois de ele dizer que sim, e corre logo
 `ferramentas/gerar_indice.py`. Nunca guardes por iniciativa própria.

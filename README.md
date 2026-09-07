@@ -63,7 +63,7 @@ A pasta é a biblioteca. Existe uma cópia e mais nenhuma. Para o Claude Code a
 encontrar em qualquer projeto, cria-se uma junção do Windows, que não precisa de
 privilégios de administrador:
 
-    mklink /J "%USERPROFILE%\.claude\skills\biblioteca-de-prompts" "C:\Users\Admin\Desktop\prompt maneger"
+    mklink /J "%USERPROFILE%\.claude\skills\biblioteca-de-prompts" "%USERPROFILE%\Desktop\prompt maneger"
 
 No Cowork basta ligar a pasta como contexto. Fica uma limitação conhecida: aí a
 skill não aparece na lista da conta, e o disparo automático é menos fiável do
